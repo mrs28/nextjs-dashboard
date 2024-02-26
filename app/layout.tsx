@@ -1,3 +1,4 @@
+//  Root Layout 
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
  
@@ -12,3 +13,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+//  Any UI you add to the root layout will be shared across all pages in your application.
+//  I can use it to modify <html> and <body> tags, and add metadata
